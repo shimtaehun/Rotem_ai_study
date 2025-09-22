@@ -1,0 +1,25 @@
+{
+  "username": "your_username",
+  "password": "your_password",
+  "login_url": "https://example.com/login",
+  "search_url": "https://example.com/search",
+  "search_params": {
+    "date": "2024-01-01",
+    "location": "서울",
+    "category": "콘서트"
+  },
+  "auto_purchase": false,
+  "seat_preference": "best",
+  "auto_retry": true,
+  "max_retry_attempts": 5,
+  "payment_info": {
+    "card_number": "1234567890123456",
+    "expiry_date": "12/25",
+    "cvv": "123",
+    "cardholder_name": "홍길동"
+  },
+  "monitoring": {
+    "enabled": false,
+    "check_interval": 30
+  }
+}
